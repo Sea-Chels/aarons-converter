@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.c717a11e.css",
-    "main.js": "/my-app/static/js/main.3b6459ed.js",
-    "index.html": "/my-app/index.html",
-    "main.c717a11e.css.map": "/my-app/static/css/main.c717a11e.css.map",
-    "main.3b6459ed.js.map": "/my-app/static/js/main.3b6459ed.js.map"
+    "main.css": "/aarons-converter/static/css/main.c717a11e.css",
+    "main.js": "/aarons-converter/static/js/main.3b6459ed.js",
+    "index.html": "/aarons-converter/index.html",
+    "main.c717a11e.css.map": "/aarons-converter/static/css/main.c717a11e.css.map",
+    "main.3b6459ed.js.map": "/aarons-converter/static/js/main.3b6459ed.js.map"
   },
   "entrypoints": [
     "static/css/main.c717a11e.css",
