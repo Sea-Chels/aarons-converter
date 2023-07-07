@@ -37,14 +37,9 @@ let errorMessage = 'isntVisible';
 if (inchesAmount ) {
     if (!!inchesAmount.match("[a-zA-Z]")) errorMessage = 'isVisible'
 }
-// const notificationStyle = {
-//     color: "#303030 !important",
-//     backgroundColor: "#f1f1f1f1 !important",
-// }
+
 const [api, contextHolder] = notification.useNotification();
-    // notification.config({
-    //     style: {notificationStyle},
-    // })
+
     const openNotification = (placement) => {
         api.info({
         message: `Measurement Copied to Clipboard!`,
@@ -56,7 +51,6 @@ const [api, contextHolder] = notification.useNotification();
 
 useEffect(() => {
     if(inchesAmount) toDecimal(inchesAmount)
-    console.log(inchesAmount);
 }, [inchesAmount]);
 
   return (
