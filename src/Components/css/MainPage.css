@@ -1,0 +1,34 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+#main-container {
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+#main-input {
+    margin: 0px;
+}
+#isVisible {
+    display: block;
+}
+#isntVisible{
+    display: none;
+}
+#result {
+    color: rgb(0, 174, 255);
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+#copyButton{
+    color: #f1f1f1f1;
+    background-color: #303030;
+}
+
+.notification, .ant-notification-notice-message, .ant-notification-notice-with-icon {
+    color: rgb(0, 174, 255) !important;
+    background-color: #303030 !important;
+    text-align: left !important;
+}
