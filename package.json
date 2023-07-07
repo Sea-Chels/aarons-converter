@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://myusername.github.io/my-app",
+  "homepage": "https://Sea-Chels.github.io/aarons-converter",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^5.1.4",
