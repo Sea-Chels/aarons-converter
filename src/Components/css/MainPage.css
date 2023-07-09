@@ -3,7 +3,7 @@
     text-align: center;
 }
 #main-container {
-    max-width: 30%;
+    max-width: 40%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 150px;
@@ -31,4 +31,35 @@
     color: rgb(0, 174, 255) !important;
     background-color: #303030 !important;
     text-align: left !important;
+}
+
+@media screen and (max-width: 800px) {
+    #main-container {
+        max-width: 50%;
+        margin-top: 100px;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    #main-container {
+        max-width: 70%;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 400px) {
+    #main-container {
+        max-width: 90%;
+        margin-top: 50px;
+    }
+    #result {
+        margin-top: 20px;
+    }
+    h1 {
+        font-size: 150%;
+    }
+    .notification, .ant-notification-notice-message, .ant-notification-notice-with-icon {
+        width: 100px !important;
+        height: 25px !important;
+
+    }
 }
