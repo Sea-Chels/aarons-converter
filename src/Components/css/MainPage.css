@@ -66,3 +66,15 @@
 
     }
 }
+
+@media screen and (max-height: 300px) {
+    #main-container {
+        margin-top: 15px;
+    }
+    #result {
+        margin-top: 20px;
+    }
+    h1, h2 {
+        font-size: 100%;
+    }
+}
