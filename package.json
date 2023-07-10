@@ -12,8 +12,6 @@
     "antd": "^5.6.4",
     "concurrently": "^8.2.0",
     "cross-env": "^7.0.3",
-    "electron": "^25.2.0",
-    "electron-builder": "^24.4.0",
     "electron-is-dev": "^2.0.0",
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
@@ -47,8 +45,8 @@
     "directories": {
       "buildResources": "assets"
     },
-    "extraMetadata":{
-      "main":"build/index.js"
+    "extraMetadata": {
+      "main": "build/index.js"
     }
   },
   "eslintConfig": {
@@ -68,5 +66,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "electron": "^25.2.0",
+    "electron-builder": "^24.4.0"
   }
 }
