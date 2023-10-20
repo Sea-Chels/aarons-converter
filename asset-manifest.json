@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/aarons-converter/static/css/main.c717a11e.css",
-    "main.js": "/aarons-converter/static/js/main.3b6459ed.js",
-    "index.html": "/aarons-converter/index.html",
-    "main.c717a11e.css.map": "/aarons-converter/static/css/main.c717a11e.css.map",
-    "main.3b6459ed.js.map": "/aarons-converter/static/js/main.3b6459ed.js.map"
+    "main.css": "./static/css/main.62ce3ebb.css",
+    "main.js": "./static/js/main.1a487e04.js",
+    "index.html": "./index.html",
+    "main.62ce3ebb.css.map": "./static/css/main.62ce3ebb.css.map",
+    "main.1a487e04.js.map": "./static/js/main.1a487e04.js.map"
   },
   "entrypoints": [
-    "static/css/main.c717a11e.css",
-    "static/js/main.3b6459ed.js"
+    "static/css/main.62ce3ebb.css",
+    "static/js/main.1a487e04.js"
   ]
 }
