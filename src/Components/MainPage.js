@@ -56,7 +56,7 @@ useEffect(() => {
   return (
     <div id="main-container">
         {contextHolder}
-        <h1>Aarons Super Cool Converter or Something</h1>
+        <h1>Inches to Millimeter</h1>
         <Input id="main-input" size="large" placeholder="Amount in Inches" value={inchesAmount} onChange={(e) => setInchesAmount(e.target.value)} />
         <p id={errorMessage}>Please make sure to only type numbers.</p>
         { millimetersAmount && (<h2 id="result">{millimetersAmount} Millimeters</h2>)}
